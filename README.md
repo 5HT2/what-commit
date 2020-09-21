@@ -5,8 +5,10 @@ Creates a commit from [whatthecommit.com](http://whatthecommit.com/), with flag 
 ## Installation
 
 ```bash
-wget -O ~/local/.bin/whatcommit https://raw.githubusercontent.com/l1ving/what-commit/master/whatcommit
-chmod +x ~/local/.bin/whatcommit
+wget -O ~/.local/bin/whatcommit https://raw.githubusercontent.com/l1ving/what-commit/master/whatcommit
+chmod +x ~/.local/bin/whatcommit
+# Make sure ~/.local/bin is in your $PATH
+# Source your shell if unsure
 ```
 
 ## Usage
