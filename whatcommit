@@ -9,5 +9,4 @@ elif [[ "$1" == "-f" ]]; then
   git commit -m "$msg" "$2"
 else
   git commit "$1" -m "$msg"
-fi
-
+fi 
