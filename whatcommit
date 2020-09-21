@@ -1,0 +1,11 @@
+#!/bin/bash
+
+msg=$(curl -s http://whatthecommit.com/index.txt)
+
+if [[ -z "$1" ]]; then
+  git commit -am "$msg"
+elif [[ "$1" == "-f" ]]; then
+  git add "$2"
+  git commit -m "$msg" "$2"; else
+  git commit "$1" -m "$msg"
+fi
