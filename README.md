@@ -5,7 +5,8 @@ Creates a commit from [whatthecommit.com](http://whatthecommit.com/), with flag 
 ## Installation
 
 ```bash
-mkdir -p ~/.local/bin # Create folder if it doesn't exist. You're free to save the file anywhere you want, this is just standard
+mkdir -p ~/.local/bin # Create folder if it doesn't exist. 
+# You're free to save the file anywhere you want, this is just standard
 wget -O ~/.local/bin/whatcommit https://raw.githubusercontent.com/l1ving/what-commit/master/whatcommit
 chmod +x ~/.local/bin/whatcommit
 # Make sure ~/.local/bin is in your $PATH
